@@ -4,18 +4,26 @@ import pprint
 
 # define scope, create credentials, and authorize a client
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive'] 
-creds = ServiceAccountCredentials.from_json_keyfile_name('develo_key.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name('secret_key.json', scope)
 client = gspread.authorize(creds)
 
+# define spreadsheet constant
+SPREADSHEET = 'dinosauria_genera'
+
 # access call for google sheet
-sheet = client.open('dinosauria_genera').sheet1
+sheet = client.open(SPREADSHEET).sheet1
 
 # create pretty printer object
 pp = pprint.PrettyPrinter()
 
 # get genera data and print it
 dinosauria = sheet.get_all_records()
-pp.pprint(dinosauria)
+#pp.pprint(dinosauria)
+
+# various print tests
+sheet.sort((2, 'des'))
+test = sheet.get_all_records()
+pp.pprint(test)
 
 # useful gspread commands
 # #to get all the values inside the file
@@ -30,3 +38,4 @@ pp.pprint(dinosauria)
 # index = 3
 # sheet.insert_row(row, index)
 # sheet.update_cell(1, 1, "telemedicine_id")
+
