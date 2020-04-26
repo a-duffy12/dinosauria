@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dinosauria",
+  "private_key_id": "9c4e5c15c494d0fdca6485e75acd17d3c33f7785",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9oVyApD69tinH\nlCKqn38qm/IJkGwqqbSlLibGKWomXU+SoArXOiUOaHhYYo3uvpjt6VeyMmqbXGC+\nOT8lDoqDVTqUrRHiufG/LWBG75yMg7WLJWhp9ryfqMtn8XhGGRHV83d4FU/y0wlM\n+SyTQKmsCQjx2tQJlt5PL9Rs+n2wVmKf+x/ndhIHVuCrYcJVVmtqXLLuKsdgj2xl\nkDHR2Wu1tMjndE4i8oYVGUJ3CZR/ublK3xkejFmBy++qLXUXQLu7qDVR5GcJt1qT\nYuMS+E9FujV8HBTrLRwzM8X+k120wQ0FdG5Kv+8jAL17d35cKVCInfn/RV3BoGxP\nbtQwc6+XAgMBAAECggEAALNF3w0FwfPD3B28YJHSmdNR5w3nwjoxEA7B73lHNh41\nCKirib+5U8bpPm/ukMLdrx31t9HrNIbHVs84i5qCYKcwMs+M+p0XLWRZGiPVMjtO\nHYnAfJlO20VySPr7ft90nXha+pGh64vWIwUqVc49DLjN8oYwwmV/clT9oXlP2Y5n\n2KkEK4GWd/6ZFOpBXI2t/liJW5vHPXUtkg33/eaGOBu7VwXJTo0S6wVV+JY4954g\n4x+r3OcaxqJBTUTH/IPhzmlBWNhvQOzAoohcujNtuho6fHYWqMfa4MMtZNHAj9Gp\npd1gdVaTPflfsMOk1y8y0kSpoFaGaKl8QG/A0xdQGQKBgQDczuuvMDulVxx/c3Mp\nGaryIEALNboOtt0XpDXjB8n+OffvPFQ7Hvg8d4u+BWnye4ZZe/DQ58HqmBSB8Qb8\nUb/jEVg49cMJmw2tZAPrUQnetwlNIBaJ/S7Yy7cThEonoBpt/xCxo6v3q510Q0/G\nftAYbdiUAK5W3cKK0CmV+NWvUwKBgQDb2l2Isa2W1TlamW3vRXYNZMhqWiIigQ8/\nttW/EpEz65jLgJGgSSOyUsTBIgq8UHXoFRjmLjSd0jAgSluhSHHD5cv/zylt/66H\n4me9b3D695GcK0CDuzHHgtcd1RlGyICcVDuD8p2xtBYb/q64F18QhNKbsSVfNNGB\nB/x0QpbqLQKBgQCReP3LkIJrXuXWjhA77r4yAM9Q01e+I/mrfrNF3LbWeAiBpAR2\nYuP2qmf1jAmOCJWt1LsGVvnp/cHdDhelGpLKHX47IKcbZ/zt1CvE18Ih6gMFvfM7\nfANmL2hxQkG8s31WJKox7nv4kycMFuCzDI862PvMHlq9viJSY+xR8vuNIwKBgENZ\n4R+YNvKnPZvItwn/AIxX3KHgHObvHKnLLC4N1RfPzA5Dw9kTrvDZNFdqQ1mvWH+R\nvv/9FbdnhcDOpsWA+QEna9hhMXL2ShRswpUhB76KizwJcAkrFrPlHFuSRd0OXYAG\nufjRIYgoAEHxQrs4xbG8zvxNR4KkHq5lsOw43hy9AoGBAJH/trI7qv6gvUc6QxJN\naIW4jzc1gWmQMNbPtCortURdplS6FdrJMUocVEY9DamRn0cHX3zJs8TYfJmcW2hf\nYnUhrWTpte632XQLp20RGxWa/LHb3AMKNVMWKqNKWnytvrenpe6GzoCuzhwMebUj\n8bDJa7QiQw2mvazhBCqDdZgZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "develo@dinosauria.iam.gserviceaccount.com",
+  "client_id": "100730027509844423208",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/develo%40dinosauria.iam.gserviceaccount.com"
+}
