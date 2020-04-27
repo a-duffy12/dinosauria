@@ -2,6 +2,7 @@ from spreadsheet import data
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.ticker as plticker
 import matplotlib.cbook as cbook
 
 # marker size relative to genus size value
@@ -27,15 +28,18 @@ s = (data.Size + 1)**2
 colors = {'Theropoda':'r', 'Sauropoda':'y', 'Ornithopoda':'g', 'Marginocephalia':'c', 'Thyreophora':'m'}
 c = [colors[val] for val in data.Order]
 
-#fig = plt.figure()
 fig, ax = plt.subplots(figsize=(20, 24))
 plt.ylabel('Primary Fossil Location')
 plt.xlabel('Time Evolved (millions of years ago)')
 plt.title('Dinosaur Size by Country, Time, and Order')
 plt.axis([235, 65, 48, -1])
+loc = plticker.MultipleLocator(base=5.0)
+ax.xaxis.set_major_locator(loc)
 ax.scatter(x, y, s, c, alpha=0.2, edgecolors=c)
 ax.set_axisbelow(True) # set axis below the points
-ax.grid(b=True, which='major', color='#777777', linestyle='-', alpha=0.5)
+ax.grid(b=True, which='major', color='k', linestyle='-', alpha=0.5)
 ax.legend()
 plt.savefig('visualizations/test.png', dpi=500)
 plt.show()
+
+# sort drive by location then by co val for geographic ordering
