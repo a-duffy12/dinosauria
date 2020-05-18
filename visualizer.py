@@ -35,11 +35,10 @@ plt.title('Dinosaur Size by Country, Time, and Order')
 plt.axis([235, 65, 48, -1])
 loc = plticker.MultipleLocator(base=5.0)
 ax.xaxis.set_major_locator(loc)
-ax.scatter(x, y, s, c, alpha=0.2, edgecolors=c)
+scatter = ax.scatter(x, y, s, c, alpha=0.2, edgecolors=c)
 ax.set_axisbelow(True) # set axis below the points
 ax.grid(b=True, which='major', color='k', linestyle='-', alpha=0.5)
-ax.legend()
-plt.savefig('visualizations/test.png', dpi=500)
+plt.savefig('visualizations/dino_size_over_time_location_order.png', dpi=500)
 plt.show()
 
 # sort drive by location then by co val for geographic ordering
